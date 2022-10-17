@@ -136,18 +136,20 @@ for (d, k, l, c, e, o) in zip(ramp_scheduled_gates, ramp_am_off, ramp_pm_start, 
     print("Gate:", d, "Ramp off at:", k, "PM Crew starts:", l,
           "Gate gap length:", c, "close gate at:", e, "reopen gate at:", o)
 g.close()
+
+
 # REARRANGE GATES FOR OPSSUITE USE
-# print(gate_gap_length)
-# # Opssuite Gates:
-# with open('rampschedule.csv', 'a', newline='') as g:
-#     filewriter = csv.writer(g)
-#     user_input = ''
-#     # Start a loop that will run until the user enters 'save'.
-#     while user_input != 'save':
-#         user_input = input("Opssuite Gates - Enter Gate #: ")
-#         if user_input != 'save':
-#             opssuite_gates.append("C"+user_input)
-#         else:
-#             filewriter.writerow(opssuite_gates)
-# print(opssuite_gates)
-# g.close()
+print(gate_gap_length)
+# Opssuite Gates:
+with open('rampschedule.csv', 'a', newline='') as g:
+    filewriter = csv.writer(g)
+    user_input = ''
+    # Start a loop that will run until the user enters 'save'.
+    while user_input != 'save':
+        user_input = input("Opssuite Gates - Enter Gate #: ")
+        if user_input != 'save':
+            opssuite_gates.append("C"+user_input)
+        else:
+            filewriter.writerow(opssuite_gates)
+print(opssuite_gates)
+g.close()

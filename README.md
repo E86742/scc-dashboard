@@ -69,8 +69,8 @@
 | AM Shift Off | Time: 1700 |
 | AM Shift Off | Time: save |
 
----|---|---
-| ------------- |:-------------:|
+## PM SHIFT 
+
 | PM Start Time | Time: 1645 |
 | PM Start Time | time: 1430 |
 | PM Start Time | time: 1300 |
@@ -103,7 +103,7 @@
 | PM Start Time | time: 1645 |
 | PM Start Time | time: save |
 
-| ------------- |:-------------:| ------------- |:-------------:|
+| ------------- |:-------------:|------------- |:-------------:|
 
 ## Result
 | Gate: C23 | Ramp off at: 17:00:00 | PM Crew starts: 16:45:00 | Gate gap length: 0:15:00 | close gate at: 16:30:00 | reopen gate at: 17:15:00 |
@@ -136,3 +136,35 @@
 | Gate: C63 | Ramp off at: 13:00:00 | PM Crew starts: 12:30:00 | Gate gap length: 0:30:00 | close gate at: 12:30:00 | reopen gate at: 13:00:00 |
 | Gate: C65 | Ramp off at: 13:15:00 | PM Crew starts: 12:45:00 | Gate gap length: 0:30:00 | close gate at: 12:45:00 | reopen gate at: 13:15:00 |
 | Gate: C67 | Ramp off at: 17:00:00 | PM Crew starts: 16:45:00 | Gate gap length: 0:15:00 | close gate at: 16:30:00 | reopen gate at: 17:15:00 |
+
+Opssuite Order Top To Bottom:
+1.) C23
+2.) C24
+3.) C25
+4.) C26
+5.) C27
+6.) C28
+7.) C29
+8.) C31
+9.) C33
+10.) C35
+11.) C37
+12.) C41
+13.) C43
+14.) C44
+15.) C45
+16.) C47
+17.) C54
+18.) C55
+19.) C56
+20.) C57
+21.) C58
+22.) C59
+23.) C60
+24.) C61
+25.) C62
+26.) C63
+27.) C64
+28.) C65
+29.) C66
+30.) C67
