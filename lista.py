@@ -13,7 +13,7 @@ print("[-+-] pdf_csv.py packages imported! \n")
 
 def pdf_csv():  # convert pdf to csv
     print("[-+-] default filenames:")
-    filename = "RAMPSched.pdf"
+    filename = "sample1"
     pdf = filename + ".pdf"
     csv = filename + ".csv"
     print(pdf)
@@ -70,7 +70,7 @@ def pdf_csv():  # convert pdf to csv
             tabula.convert_into(pdf_path,
                                 csv_path,
                                 output_format="csv",
-                                pages="all")
+                                pages="2-3")
             print("[-+-] pdf to csv conversion complete!\n")
         except IOError:
             print("[-+-] pdf to csv conversion failed!")

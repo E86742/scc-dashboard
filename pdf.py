@@ -8,4 +8,4 @@ def get_pdf_info(path):
     print('PDF has {} pages'.format(len(pdf.pages)))
      
 if __name__ == '__main__':
-    get_pdf_info('RAMPSChedule.pdf')
+    get_pdf_info('sched.pdf')
