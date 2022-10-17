@@ -18,6 +18,6 @@ def pdf_to_text(input_file,output):
     with open(output,'w') as of:
         of.write(txt)
  
-input_pdf = 'RAMPSchedule.pdf'
+input_pdf = 'RAMPSched.pdf'
 output_txt = 'sample.csv'
 pdf_to_text(input_pdf,output_txt)
