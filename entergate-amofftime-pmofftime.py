@@ -2,7 +2,7 @@ import datetime
 from datetime import timedelta
 import csv
 import itertools
-from simple_chalk import chalk, green
+# from simple_chalk import chalk, green
 
 print('''
 .......,,,,............................:**:.........................................,,..............
@@ -113,53 +113,53 @@ CONTROL_PANEL = {
     "C67": True,
 }
 
-# EMPTY_CONTROL_PANEL = {}
-# CHANGE_GATE_STATUS = str(input("What gate would you like to change the status of?"))
-# for gate in CONTROL_PANEL:
-#     if CHANGE_GATE_STATUS == gate:
-#         CONTROL_PANEL.update(['False'])
-#         print(gate)
+EMPTY_CONTROL_PANEL = {}
+CHANGE_GATE_STATUS = str(input("What gate would you like to change the status of?"))
+for gate in CONTROL_PANEL:
+    if CHANGE_GATE_STATUS == gate:
+        CONTROL_PANEL.update(['False'])
+        print(gate)
 
 # UPDATED_CONTROL_PANEL
 
 
-# def current_control_panel():
-#     count = 0
-#     for key, value in CONTROL_PANEL.items():
-#         if value == True:
-#             count += 1
-#             print("#", count, key, value)
-#     print("Operating", count, "Gates")
+def current_control_panel():
+    count = 0
+    for key, value in CONTROL_PANEL.items():
+        if value == True:
+            count += 1
+            print("#", count, key, value)
+    print("Operating", count, "Gates")
 
 
-# # Question to close or open a gate:
-# SEE_GATES = str(
-#     input("Would you like to see what gates you are using?, YES OR NO"))
-# if SEE_GATES == "yes" or SEE_GATES == "YES":
-#     print("Ok, here's the current gates you are using:")
-#     current_control_panel()
-    # CHANGE_GATE_STATUS_QUESTION = str(input("Would you like to change the status of any of these gates?"))
-    # if CHANGE_GATE_STATUS_QUESTION == "yes" or CHANGE_GATE_STATUS_QUESTION == "YES":
-    #     print("you answered yes")
-    #     # change_gate_status()
-    # elif CHANGE_GATE_STATUS_QUESTION == "no" or CHANGE_GATE_STATUS_QUESTION == "NO":
-    #     print("You answered no")
-    # else:
-    #     print('Oh well')
-# elif SEE_GATES == "no" or SEE_GATES == "NO":
-#     print("ok moving on then:")
-# else:
-#     print("you didn't answer the question yes or no")
-#     exit()
+# Question to close or open a gate:
+SEE_GATES = str(
+    input("Would you like to see what gates you are using?, YES OR NO"))
+if SEE_GATES == "yes" or SEE_GATES == "YES":
+    print("Ok, here's the current gates you are using:")
+    current_control_panel()
+    CHANGE_GATE_STATUS_QUESTION = str(input("Would you like to change the status of any of these gates?"))
+    if CHANGE_GATE_STATUS_QUESTION == "yes" or CHANGE_GATE_STATUS_QUESTION == "YES":
+        print("you answered yes")
+        # change_gate_status()
+    elif CHANGE_GATE_STATUS_QUESTION == "no" or CHANGE_GATE_STATUS_QUESTION == "NO":
+        print("You answered no")
+    else:
+        print('Oh well')
+elif SEE_GATES == "no" or SEE_GATES == "NO":
+    print("ok moving on then:")
+else:
+    print("you didn't answer the question yes or no")
+    exit()
 
-# RAMP_SCHEDULE_GATES = []
-# ramp_gate_count = 0
-# for key, value in CONTROL_PANEL.items():
-#     if value == True:
-#         ramp_gate_count += 1
-#         RAMP_SCHEDULE_GATES.append(key)
-# print("OPERATING:", len(RAMP_SCHEDULE_GATES), "GATES",
-#       RAMP_SCHEDULE_GATES)
+RAMP_SCHEDULE_GATES = []
+ramp_gate_count = 0
+for key, value in CONTROL_PANEL.items():
+    if value == True:
+        ramp_gate_count += 1
+        RAMP_SCHEDULE_GATES.append(key)
+print("OPERATING:", len(RAMP_SCHEDULE_GATES), "GATES",
+      RAMP_SCHEDULE_GATES)
 
 
 gate_list = [
@@ -204,33 +204,33 @@ reopen_time = []
 
 # RAMP SCHEDULE ORDER OF GATES
 
-# print("Here we're looking for the first Lead C-GATE just after the LAV DRIVERS SECTION")
-# with open('rampschedule.csv', 'w', newline='') as g:
-#     ENTERED_GATE_COUNTER = 0
-#     filewriter = csv.writer(g)
-#     user_input = ''
-#     # Start a loop that will run until the user enters 'save'.
-#     while user_input != 'save':
-#         user_input = input("Scheduled Gates - Enter Gate #:")
-#         if user_input == 'save' or user_input == '':
-#             print("Saving Gates and Gate Count")
-#             break
-#         else:
-#             ramp_scheduled_gates.append(user_input)
-#             ENTERED_GATE_COUNTER += 1
-#             print("ADDED", "GATE:", user_input, "to the list.", ENTERED_GATE_COUNTER, "gates so far")
-#     staffed_gates = len(ramp_scheduled_gates)
-#     filewriter.writerow(["Ramp Schedule Gates"])
-#     for i in ramp_scheduled_gates:
-#         filewriter.writerow([i])
-#     filewriter.writerow(["We currently have:",staffed_gates,"staffed gates."])
-#     print("We currently have:", staffed_gates, "staffed gates.")
-#     if len(ramp_scheduled_gates) == len(RAMP_SCHEDULE_GATES):
-#         print("GATE COUNTS ARE EQUAL GOOD JOB")
-#     else:
-#         print("Something's wrong, start over.")
-#         exit()
-# g.close()
+print("Here we're looking for the first Lead C-GATE just after the LAV DRIVERS SECTION")
+with open('rampschedule.csv', 'w', newline='') as g:
+    ENTERED_GATE_COUNTER = 0
+    filewriter = csv.writer(g)
+    user_input = ''
+    # Start a loop that will run until the user enters 'save'.
+    while user_input != 'save':
+        user_input = input("Scheduled Gates - Enter Gate #:")
+        if user_input == 'save' or user_input == '':
+            print("Saving Gates and Gate Count")
+            break
+        else:
+            ramp_scheduled_gates.append(user_input)
+            ENTERED_GATE_COUNTER += 1
+            print("ADDED", "GATE:", user_input, "to the list.", ENTERED_GATE_COUNTER, "gates so far")
+    staffed_gates = len(ramp_scheduled_gates)
+    filewriter.writerow(["Ramp Schedule Gates"])
+    for i in ramp_scheduled_gates:
+        filewriter.writerow([i])
+    filewriter.writerow(["We currently have:",staffed_gates,"staffed gates."])
+    print("We currently have:", staffed_gates, "staffed gates.")
+    if len(ramp_scheduled_gates) == len(RAMP_SCHEDULE_GATES):
+        print("GATE COUNTS ARE EQUAL GOOD JOB")
+    else:
+        print("Something's wrong, start over.")
+        exit()
+g.close()
 
 # Ramp AM Offtime
 with open('rampschedule.csv', 'a', newline='') as g:
