@@ -1,0 +1,306 @@
+Orig,Dest,Flt,Aircraft,Final,Final LS,Doors,Total PAX,Sched,Doors,Out,Doors,Out,Delay,Delay Code & Remarks
+"",,,Reg,PrePlan,Print,Closed,Onboard,Dep,Closed,Gate,Closed,Gate,Group,
+"",,,Number,Timestamp,Timestamp,Local,,CST,CST,CST,Delay,Delay,Code,
+"",,,,Local,Local,,,,,,,,,
+ABQ,DAL,100,N8526W,4:41 AM,5:48 AM,5:50 AM,173,6:50 AM,6:50 AM,6:51 AM,0,1,,
+ALB,MDW,684,N8318F,2:23 AM,3:37 AM,3:38 AM,168,4:20 AM,4:38 AM,4:39 AM,18,19,CM02,Ridiculouly long boarding..168 pax
+"",,,,,,,,,,,,,,"w/ 6 wchrs, aisle chair/lift, any"
+"",,,,,,,,,,,,,,more preboard pax on..jetway
+"",,,,,,,,,,,,,,backed up to top from end of  A
+"",,,,,,,,,,,,,,"grp to the end, often at a"
+"",,,,,,,,,,,,,,standstill..pax still in aisle looking
+"",,,,,,,,,,,,,,for seats and stowing bags..FS
+"",,,,,,,,,,,,,,0450..LS 0516
+ATL,PHX,1600,N8698B,3:40 AM,4:24 AM,4:26 AM,173,5:20 AM,5:26 AM,5:26 AM,6,6,CM02,13 wchr 5 of  which came during
+"",,,,,,,,,,,,,,middle of  boarding. jet bridge still
+"",,,,,,,,,,,,,,backed up at time of  push waited
+"",,,,,,,,,,,,,,"for stby to be cleared, checked 6"
+"",,,,,,,,,,,,,,addtl bags fs 0550 ls 0617 pwb
+"",,,,,,,,,,,,,,0624
+ATL,DEN,1395,N8685B,3:43 AM,4:09 AM,4:14 AM,157,5:15 AM,5:14 AM,5:16 AM,0,1,,
+ATL,MCO,185,N7880D,4:22 AM,5:33 AM,5:35 AM,138,6:15 AM,6:35 AM,6:41 AM,20,26,TR08,A FA P HILL LATE FOR FLIGHT
+"",,,,,,,,,,,,,,ATA 0708 FS 0708 LS 0726 PWB
+"",,,,,,,,,,,,,,0733
+ATL,LAS,678,N8327A,3:34 AM,4:26 AM,4:29 AM,174,5:30 AM,5:29 AM,5:31 AM,0,1,,
+ATL,RSW,6610,N8302F,4:52 AM,5:52 AM,5:55 AM,130,6:55 AM,6:55 AM,6:56 AM,0,1,,
+AUS,ATL,206,N737JW,4:48 AM,5:34 AM,5:43 AM,112,6:35 AM,6:43 AM,6:45 AM,8,10,MX02,"FS 06:05, LS 06:19, PWB sent"
+"",,,,,,,,,,,,,,06:34
+"",,,,,,,,,,,,,,"MEL added to release,"
+"",,,,,,,,,,,,,,MEL# 21-17-03 pax cabin temp
+"",,,,,,,,,,,,,,indicator inop.
+AUS,DEN,2053,N8744B,4:08 AM,5:07 AM,5:09 AM,113,6:10 AM,6:09 AM,6:11 AM,0,1,,
+AUS,MSY,267,N287WN,4:20 AM,5:07 AM,5:08 AM,47,6:15 AM,6:08 AM,6:17 AM,0,2,TR20,doors @ 608.  INOP  headset
+BDL,MDW,287,N8581Z,2:44 AM,3:41 AM,3:45 AM,166,4:45 AM,4:45 AM,4:47 AM,0,2,,
+BUF,DEN,423,N8515X,3:19 AM,4:00 AM,4:05 AM,172,4:55 AM,5:05 AM,5:06 AM,10,11,TR03,D flt att ontime ...remaining crew
+"",,,,,,,,,,,,,,members arr at gate at 0530...got
+"",,,,,,,,,,,,,,ok to board from crew at 0536
+BWI,DEN,480,N8765Q,3:21 AM,4:24 AM,4:30 AM,174,5:30 AM,5:30 AM,5:32 AM,0,2,,
+BWI,SAN,1635,N8731J,3:43 AM,4:42 AM,4:44 AM,170,5:45 AM,5:44 AM,5:52 AM,0,7,TR20,traffic in the alley
+Orig,Dest,Flt,Aircraft,Final,Final LS,Doors,Total PAX,Sched,Doors,Out,Doors,Out,Delay,Delay Code & Remarks
+"",,,Reg,PrePlan,Print,Closed,Onboard,Dep,Closed,Gate,Closed,Gate,Group,
+"",,,Number,Timestamp,Timestamp,Local,,CST,CST,CST,Delay,Delay,Code,
+"",,,,Local,Local,,,,,,,,,
+BWI,BNA,715,N7748A,3:15 AM,4:17 AM,4:18 AM,139,5:20 AM,5:18 AM,5:21 AM,0,1,,
+BWI,LAS,2447,N8752Q,3:27 AM,4:16 AM,4:19 AM,170,5:20 AM,5:19 AM,5:21 AM,0,1,,
+BWI,MIA,512,N8660A,3:15 AM,4:14 AM,4:17 AM,140,5:20 AM,5:17 AM,5:21 AM,0,1,TR20,waiting for alley way to clear from
+"",,,,,,,,,,,,,,planes that pushed the b side.
+"",,,,,,,,,,,,,,doors closed 0621. pwb 0614.
+"",,,,,,,,,,,,,,scans 0553/0605.
+BWI,FLL,1304,N8565Z,3:13 AM,4:21 AM,4:24 AM,162,5:25 AM,5:24 AM,5:27 AM,0,2,,
+BWI,STL,546,N8806Q,3:43 AM,4:19 AM,4:21 AM,94,5:25 AM,5:21 AM,5:26 AM,0,1,TR20,L1 boarding door closed 0621 for
+"",,,,,,,,,,,,,,"0625 push, FS 0554 LS 0603 PWB"
+"",,,,,,,,,,,,,,0619.
+BWI,BUF,2883,N7862A,3:09 AM,4:29 AM,4:30 AM,13,5:30 AM,5:30 AM,5:31 AM,0,1,,
+BWI,MCO,506,N8693A,3:45 AM,4:37 AM,4:41 AM,171,5:40 AM,5:41 AM,5:45 AM,1,5,TR04,F/S 610AM ..  L/S 632AM ..  PWB
+"",,,,,,,,,,,,,,637AM ..  WAITING ON CAPT
+"",,,,,,,,,,,,,,GETTING INFO OFF ACARS
+BWI,HOU,1791,N445WN,3:30 AM,4:29 AM,4:30 AM,139,5:25 AM,5:30 AM,5:41 AM,5,16,MX02,LOG BOOK ENTRY MADEFS
+"",,,,,,,,,,,,,,0600 LS 0617 PWB 0629
+BWI,LAX,1672,N8607M,3:48 AM,4:28 AM,4:34 AM,163,5:30 AM,5:34 AM,5:39 AM,4,9,TR09,FS 0601 LS  0623 PWB 0628
+"",,,,,,,,,,,,,,DOORS CLOSED 0634. LAST PAX
+"",,,,,,,,,,,,,,WITH PETC WERE IN THE AFT
+"",,,,,,,,,,,,,,ROW OF THE AIRCRAFT TO SIT
+"",,,,,,,,,,,,,,TOGETHER AND THE FA WERE
+"",,,,,,,,,,,,,,MOVING THEM AROUND TO
+"",,,,,,,,,,,,,,MAKE THEM PUT THE PET
+"",,,,,,,,,,,,,,CARRIERS UNDERNEATH THE
+"",,,,,,,,,,,,,,SEATS.
+CHS,BNA,492,N8542Z,3:43 AM,4:44 AM,4:56 AM,121,5:40 AM,5:56 AM,5:57 AM,16,17,SD01,BAGS BELTS DROPPED OTS
+"",,,,,,,,,,,,,,WAITING TO MAKE SURE MOST
+"",,,,,,,,,,,,,,OF THE BAGS MADE IT ON FLT
+"",,,,,,,,,,,,,,PWB SENT AT 0644 13 MIN
+"",,,,,,,,,,,,,,DELAY DUE TO PAX NEEDING
+"",,,,,,,,,,,,,,MEDICAL EVALUATION
+CHS,BWI,248,N272WN,4:59 AM,5:28 AM,5:29 AM,95,6:20 AM,6:29 AM,6:29 AM,9,9,SD01,BAG BELTS NOT WORKING GOT
+"",,,,,,,,,,,,,,OK TO HOLD A/C TO GET AS
+"",,,,,,,,,,,,,,MANY BAGS ON UP TO 10 MINS
+"",,,,,,,,,,,,,,DELAYFIM 64
+CLE,BNA,561,N7747C,3:34 AM,4:22 AM,4:24 AM,139,5:25 AM,5:24 AM,5:27 AM,0,2,,
+CMH,TPA,1701,N930WN,2:57 AM,4:03 AM,4:04 AM,143,5:05 AM,5:04 AM,5:07 AM,0,2,,
+CMH,MDW,1783,N8767M,4:09 AM,4:49 AM,4:56 AM,86,6:00 AM,5:56 AM,6:11 AM,0,11,TR20,DOORS CLOSED 0656 AC REQD
+"",,,,,,,,,,,,,,AIRSTART
+CMH,LAS,1276,N8657B,3:20 AM,4:11 AM,4:14 AM,169,5:15 AM,5:14 AM,5:17 AM,0,2,,
+Orig,Dest,Flt,Aircraft,Final,Final LS,Doors,Total PAX,Sched,Doors,Out,Doors,Out,Delay,Delay Code & Remarks
+"",,,Reg,PrePlan,Print,Closed,Onboard,Dep,Closed,Gate,Closed,Gate,Group,
+"",,,Number,Timestamp,Timestamp,Local,,CST,CST,CST,Delay,Delay,Code,
+"",,,,Local,Local,,,,,,,,,
+COS,DEN,2824,N8740A,5:10 AM,5:22 AM,5:24 AM,65,6:20 AM,6:24 AM,6:27 AM,4,7,OP10,system froze as numbers where
+"",,,,,,,,,,,,,,"being sent, hard computer reset"
+"",,,,,,,,,,,,,,was needed twice.
+COS,DAL,1634,N8695D,5:11 AM,6:01 AM,6:03 AM,167,7:00 AM,7:03 AM,7:04 AM,3,4,CM02,HAD TO ASK CSA TO PROCESS
+"",,,,,,,,,,,,,,TWO PAX UNDOCUMENTED
+"",,,,,,,,,,,,,,COS //4 WCHAIRS AND PAX LAS
+"",,,,,,,,,,,,,,MIN WITH A SCOOTER TLOB 169
+"",,,,,,,,,,,,,,3 LAPS FS 0531 LS 0552 PWB
+"",,,,,,,,,,,,,,0601
+DAL,ATL,675,N482WN,4:15 AM,5:09 AM,5:11 AM,132,6:10 AM,6:11 AM,6:12 AM,1,2,TR09,F/S  0544  L/S  0601  PWB  0609
+"",,,,,,,,,,,,,,<<FLT ATT(SCOTT ZIRBEL) ARRV
+"",,,,,,,,,,,,,,AT BOARD TIME (0540).  NICOLE
+"",,,,,,,,,,,,,,SALINAS (DAL STAT UNION REP)
+"",,,,,,,,,,,,,,ASST 1ST WCHR PAX. FLT CREW
+"",,,,,,,,,,,,,,READY TO BOARD AT 0544.
+"",,,,,,,,,,,,,,SCOTT DELAYED L1 CLSE.>>
+DCA,DAL,791,N928WN,4:18 AM,4:50 AM,4:53 AM,123,5:55 AM,5:53 AM,5:56 AM,0,1,,
+DCA,MCO,477,N422WN,2:46 AM,3:55 AM,3:57 AM,112,5:05 AM,4:57 AM,5:09 AM,0,4,TR20,DOORS CLOSED 8 MIN
+"",,,,,,,,,,,,,,EARLY........fs  0538  ls 0551  wb
+"",,,,,,,,,,,,,,0551pwb 0555
+DCA,FLL,794,N424WN,3:20 AM,3:53 AM,3:55 AM,100,5:00 AM,4:55 AM,5:02 AM,0,2,TR20,FS 0530... LS 0551... PWB 0553
+DEN,OMA,1036,N567WN,4:40 AM,5:21 AM,5:26 AM,16,6:25 AM,6:26 AM,6:32 AM,1,7,TR03,Scheduling confirmed FO was
+"",,,,,,,,,,,,,,checked in and on the way at
+"",,,,,,,,,,,,,,"0511, FO 149145 arrived at 0520,"
+"",,,,,,,,,,,,,,"closed doors 1 min late, fs0457/"
+"",,,,,,,,,,,,,,ls0507/pwb0521
+DEN,TPA,962,N8545V,4:57 AM,5:55 AM,5:58 AM,172,6:40 AM,6:58 AM,7:02 AM,18,22,MX02,data link inop required new
+"",,,,,,,,,,,,,,release MEL'd ACARS
+DEN,PHX,1987,N247WN,4:41 AM,5:28 AM,5:30 AM,132,6:35 AM,6:30 AM,6:36 AM,0,1,TR20,Doors closed on Time.
+DEN,MDW,2968,N7853B,4:50 AM,5:25 AM,5:27 AM,113,6:25 AM,6:27 AM,6:30 AM,2,5,TR04,CA completing SSI Form.
+"",,,,,,,,,,,,,,Boarding Started 4:58 (FA -A
+"",,,,,,,,,,,,,,"Michael E Prime arrived 5:05, too"
+"",,,,,,,,,,,,,,"1st PAX UM down at 5:08), Last"
+"",,,,,,,,,,,,,,Scan 5:23 (getting SBY on while
+"",,,,,,,,,,,,,,"Ramp still loading), PWB Sent"
+"",,,,,,,,,,,,,,"5:25, Doors Closed 5:27 (CA"
+"",,,,,,,,,,,,,,completing SSI Form).
+DEN,MCO,920,N8305E,4:32 AM,5:02 AM,5:10 AM,174,6:10 AM,6:10 AM,6:11 AM,0,1,,
+Orig,Dest,Flt,Aircraft,Final,Final LS,Doors,Total PAX,Sched,Doors,Out,Doors,Out,Delay,Delay Code & Remarks
+"",,,Reg,PrePlan,Print,Closed,Onboard,Dep,Closed,Gate,Closed,Gate,Group,
+"",,,Number,Timestamp,Timestamp,Local,,CST,CST,CST,Delay,Delay,Code,
+"",,,,Local,Local,,,,,,,,,
+DEN,SEA,2776,N444WN,4:59 AM,5:49 AM,5:51 AM,91,6:50 AM,6:51 AM,6:52 AM,1,2,TR14,NO RAMP CREW UNTIL 0535
+"",,,,,,,,,,,,,,Pax boarding started05:26
+"",,,,,,,,,,,,,,Pax boarding ended05:46
+"",,,,,,,,,,,,,,Final boarding card scanned05:46
+"",,,,,,,,,,,,,,Finalizing
+"",,,,,,,,,,,,,,Weight  balance started05:04
+"",,,,,,,,,,,,,,PWB Sent05:49
+DEN,LAX,280,N229WN,5:04 AM,5:46 AM,5:48 AM,90,6:45 AM,6:48 AM,6:50 AM,3,5,MX02,Pax boarding started 05:20
+"",,,,,,,,,,,,,,Pax boarding ended 05:29
+"",,,,,,,,,,,,,,PWB Sent 05:46
+"",,,,,,,,,,,,,,mx lock at push time mel
+DEN,MSP,2072,N213WN,4:50 AM,5:21 AM,5:29 AM,28,6:25 AM,6:29 AM,6:38 AM,4,13,TR01,"BOTH PILOTS CALLED AT 3:00,"
+"",,,,,,,,,,,,,,FS 510 LS 515 PWB 521
+FLL,HOU,1052,N8637A,3:18 AM,3:58 AM,4:01 AM,123,5:05 AM,5:01 AM,5:11 AM,0,6,TR20,FS//05:38 LS//05:50 PWB//05:58
+"",,,,,,,,,,,,,,CAP RELEASED BRAKES LATE
+"",,,,,,,,,,,,,,AFTER DOORS CLOSED ON
+"",,,,,,,,,,,,,,TIME.
+GSP,ATL,1081,N230WN,3:21 AM,4:35 AM,4:36 AM,131,5:40 AM,5:36 AM,5:41 AM,0,1,TR20,PILOT STILL DOING CHECKS
+"",,,,,,,,,,,,,,WITH ELECTIC STILL HOOKED
+"",,,,,,,,,,,,,,UP
+HOU,LGA,1397,N907WN,3:54 AM,4:38 AM,4:45 AM,136,5:40 AM,5:45 AM,5:47 AM,5,7,TR13,FS0515  LS0535  PWB0538 5 WC
+"",,,,,,,,,,,,,,NO HELP  KEPT BOARDING PAST
+"",,,,,,,,,,,,,,10 MIN MARK  KELLY adv
+HOU,TPA,368,N498WN,3:51 AM,4:36 AM,4:54 AM,35,5:45 AM,5:54 AM,5:55 AM,9,10,TR04,MX CALLED AT PUSH FOR
+"",,,,,,,,,,,,,,"CHECKLIST, MCC WALTER ADVD,"
+"",,,,,,,,,,,,,,"CSS MARK PRESENT, FS 0518, LS"
+"",,,,,,,,,,,,,,0527.
+IND,MCO,1280,N734SA,4:10 AM,4:11 AM,4:22 AM,142,5:20 AM,5:22 AM,5:24 AM,2,4,CM02,FS 51 LS 09..PAX NEEDED AISLE
+"",,,,,,,,,,,,,,CHAIR TO BOARD...10 MINUTES
+"",,,,,,,,,,,,,,FOR JETWAY TO CLEAR AND PAX
+"",,,,,,,,,,,,,,TO TAKE SEATS
+LGA,ATL,1468,N8622A,4:04 AM,5:15 AM,5:23 AM,167,6:15 AM,6:23 AM,6:24 AM,8,9,TR11,TRIED TO GET A TAILSWAP WAS
+"",,,,,,,,,,,,,,NOT ALOWED TOW CAME IN
+"",,,,,,,,,,,,,,LATE TO GATE
+LGA,DEN,1479,N8621A,3:19 AM,5:04 AM,5:06 AM,152,6:00 AM,6:06 AM,6:09 AM,6,9,TR08,"fs:41 Ls:55 A, B, C FA's arrived 9"
+"",,,,,,,,,,,,,,min late for flight.
+MCI,BNA,434,N8670A,4:01 AM,5:35 AM,5:41 AM,173,6:40 AM,6:41 AM,6:43 AM,1,3,TR09,LAST F/A ARRIVED RIGHT AT 30
+Orig,Dest,Flt,Aircraft,Final,Final LS,Doors,Total PAX,Sched,Doors,Out,Doors,Out,Delay,Delay Code & Remarks
+"",,,Reg,PrePlan,Print,Closed,Onboard,Dep,Closed,Gate,Closed,Gate,Group,
+"",,,Number,Timestamp,Timestamp,Local,,CST,CST,CST,Delay,Delay,Code,
+"",,,,Local,Local,,,,,,,,,
+MCI,BWI,1535,N958WN,4:16 AM,4:28 AM,4:38 AM,138,5:30 AM,5:38 AM,5:43 AM,8,13,CM02,"fs03 ls27 pwb28... honor flight, pax"
+"",,,,,,,,,,,,,,"finding seats, pilots did not have"
+"",,,,,,,,,,,,,,their numbers loaded or their
+"",,,,,,,,,,,,,,checklist complete so they were
+"",,,,,,,,,,,,,,not ready to close doors or
+"",,,,,,,,,,,,,,release breaks
+MCI,DAL,1365,N8562Z,4:18 AM,5:00 AM,5:02 AM,146,6:00 AM,6:02 AM,6:04 AM,2,4,TR04,Captain conferring with MX and
+"",,,,,,,,,,,,,,MX Control about missing
+"",,,,,,,,,,,,,,checklist (item not required) -- F/O
+"",,,,,,,,,,,,,,initially removed checklist from
+"",,,,,,,,,,,,,,different A/C (returned) --- FS
+"",,,,,,,,,,,,,,0529 LS 0556 PWB 0600
+MDW,LAX,149,N8678E,3:57 AM,4:36 AM,4:40 AM,171,5:40 AM,5:40 AM,5:50 AM,0,10,TR20,F/S 5:10 L/S 5:33 PWB 5:36
+"",,,,,,,,,,,,,,DOORS CLOSED  5:40  DEICING
+"",,,,,,,,,,,,,,AT THE GATE MANAGER GRACE
+"",,,,,,,,,,,,,,AND  SUPERVISOR VICTORIA
+"",,,,,,,,,,,,,,PRESENT
+MDW,BOS,912,N8626B,4:08 AM,4:41 AM,4:46 AM,98,5:45 AM,5:46 AM,5:48 AM,1,3,TR09,FS 517 LS 0533 F/A CALLED MX
+"",,,,,,,,,,,,,,FOR DEMO MASK 4 MIN BEFORE
+"",,,,,,,,,,,,,,PUSH TIME SUP MALISSA
+"",,,,,,,,,,,,,,ADVISED
+MDW,IAD,8018,N8761L,4:45 AM,5:40 AM,5:49 AM,174,6:45 AM,6:49 AM,6:52 AM,4,7,CM02,FS 0554...LS 0636...PWB
+"",,,,,,,,,,,,,,0640....HONOR FLIGHT....WTG
+"",,,,,,,,,,,,,,FOR PAX TO BE SEATED...MGR
+"",,,,,,,,,,,,,,KAREN ADVISED
+MDW,BWI,2386,N8524Z,4:10 AM,5:30 AM,5:31 AM,84,6:40 AM,6:31 AM,6:42 AM,0,2,TR20,fs/609 ls/618 DOORS CLOSED ON
+"",,,,,,,,,,,,,,TIME .. SUP CLETUS ADVISED ..
+MDW,HOU,1697,N8778Q,3:36 AM,4:26 AM,4:38 AM,163,5:30 AM,5:38 AM,5:39 AM,8,9,TR09,Fa handed out several seat belt
+"",,,,,,,,,,,,,,ext waiting on mx to bring 2 more
+"",,,,,,,,,,,,,,to gate. Notified ops agent at 26
+"",,,,,,,,,,,,,,as ewb sent. Sup Dee at gate and
+"",,,,,,,,,,,,,,adv
+MKE,BNA,3193,N7738A,3:55 AM,4:42 AM,4:45 AM,140,5:45 AM,5:45 AM,5:54 AM,0,9,TR20,Running engine #2. Cold temps
+"",,,,,,,,,,,,,,causing fuel to drip. Engine run for
+"",,,,,,,,,,,,,,5 mins solved the issue.
+MKE,BWI,1331,N8544Z,3:59 AM,4:39 AM,4:45 AM,169,5:45 AM,5:45 AM,5:46 AM,0,1,,
+OMA,DEN,1967,N8784Q,4:15 AM,5:16 AM,5:20 AM,167,6:15 AM,6:20 AM,6:20 AM,5,5,TR09,D FA  was hereABC FA  showed
+"",,,,,,,,,,,,,,up at boardingand I was not told
+"",,,,,,,,,,,,,,they were ready until 0553First
+"",,,,,,,,,,,,,,0554  last0615pwb0616  c
+"",,,,,,,,,,,,,,0620
+OMA,MDW,1972,N7819A,4:15 AM,5:16 AM,5:18 AM,110,6:20 AM,6:18 AM,6:21 AM,0,1,,
+Orig,Dest,Flt,Aircraft,Final,Final LS,Doors,Total PAX,Sched,Doors,Out,Doors,Out,Delay,Delay Code & Remarks
+"",,,Reg,PrePlan,Print,Closed,Onboard,Dep,Closed,Gate,Closed,Gate,Group,
+"",,,Number,Timestamp,Timestamp,Local,,CST,CST,CST,Delay,Delay,Code,
+"",,,,Local,Local,,,,,,,,,
+ORF,BWI,410,N8306H,3:13 AM,4:33 AM,4:37 AM,145,5:20 AM,5:37 AM,5:41 AM,17,21,TR03,Crew late stuck in traffic dispatch
+"",,,,,,,,,,,,,,adv us scans 0614/0629 duty sup
+"",,,,,,,,,,,,,,Sarah adv
+ORF,MDW,1939,N944WN,2:28 AM,3:26 AM,3:26 AM,139,4:25 AM,4:26 AM,4:29 AM,1,4,TR14,FS 0456 LS 0516 SCANNER INOP.
+"",,,,,,,,,,,,,,RESCAN BAGS. RAMP CLSD
+"",,,,,,,,,,,,,,0525. ADVS DUTY SUP SARAH
+PHL,ATL,840,N447WN,2:26 AM,3:33 AM,3:37 AM,131,4:35 AM,4:37 AM,4:38 AM,2,3,TR09,FS 0511 LS 0529 CLEARED TO
+"",,,,,,,,,,,,,,BOARD 511 EXIT ROWS BEING
+"",,,,,,,,,,,,,,BRIEFED
+PHL,STL,1347,N1801U,3:26 AM,4:24 AM,4:30 AM,135,5:30 AM,5:30 AM,5:32 AM,0,2,,
+PIT,ATL,1454,N8502Z,4:53 AM,5:50 AM,5:54 AM,169,6:50 AM,6:54 AM,6:54 AM,4,4,OP10,common use gate computers not
+"",,,,,,,,,,,,,,working at A11 or A13 had to
+"",,,,,,,,,,,,,,board manually at another gate
+"",,,,,,,,,,,,,,and send numbers from A7
+PIT,DEN,2177,N8531Q,2:10 AM,3:18 AM,3:21 AM,171,4:00 AM,4:21 AM,4:24 AM,21,24,OP10,no internet out of  boarding gate.
+"",,,,,,,,,,,,,,Had to manual board and do
+"",,,,,,,,,,,,,,numbers out of  another gate.
+"",,,,,,,,,,,,,,Numbers were sent and last
+"",,,,,,,,,,,,,,minute 2 fams decided they could
+"",,,,,,,,,,,,,,not go partner missed flight.
+PIT,BNA,2171,N8324A,3:14 AM,4:10 AM,4:14 AM,170,5:15 AM,5:14 AM,5:16 AM,0,1,,
+PIT,BWI,676,N8686A,3:06 AM,3:57 AM,4:00 AM,167,5:00 AM,5:00 AM,5:04 AM,0,4,TR20,"door:00, waiting for ac to push"
+"",,,,,,,,,,,,,,from gate
+RDU,BWI,2209,N475WN,5:44 AM,5:59 AM,6:02 AM,134,5:35 AM,7:02 AM,7:03 AM,87,88,MX02,Humming in headsets.
+RDU,BNA,1707,N8645A,3:55 AM,4:54 AM,4:59 AM,172,5:45 AM,5:59 AM,6:03 AM,14,18,MX02,HAD  TO RUN UP ENGINE #2
+"",,,,,,,,,,,,,,BEFORE BOARDING DUE TO
+"",,,,,,,,,,,,,,FUEL LEAK
+RDU,MCO,2580,N234WN,2:48 AM,3:42 AM,3:46 AM,142,4:45 AM,4:46 AM,4:48 AM,1,3,TR03,PILOTS SHOWED UP AT 0517
+"",,,,,,,,,,,,,,FS 0520 LS 0536 WITH FULL
+"",,,,,,,,,,,,,,JETBRIDGE
+RDU,MDW,820,N933WN,3:23 AM,4:11 AM,4:15 AM,140,5:15 AM,5:15 AM,5:20 AM,0,5,TR20,Crew arrived 0547 For 0615
+"",,,,,,,,,,,,,,Departure. FS 0551 LS 0609
+"",,,,,,,,,,,,,,Ramp closed 0610 Door closed
+"",,,,,,,,,,,,,,0615 CA released breaks 0620
+RIC,ATL,2852,N267WN,4:11 AM,4:25 AM,4:27 AM,94,5:05 AM,5:27 AM,5:30 AM,22,25,DP01,DISPATCH SENT THE
+Orig,Dest,Flt,Aircraft,Final,Final LS,Doors,Total PAX,Sched,Doors,Out,Doors,Out,Delay,Delay Code & Remarks
+"",,,Reg,PrePlan,Print,Closed,Onboard,Dep,Closed,Gate,Closed,Gate,Group,
+"",,,Number,Timestamp,Timestamp,Local,,CST,CST,CST,Delay,Delay,Code,
+"",,,,Local,Local,,,,,,,,,
+SAT,ATL,1655,N919WN,4:45 AM,5:40 AM,5:45 AM,140,6:30 AM,6:45 AM,6:46 AM,15,16,SD01,fs0615ls0634 ac was towed in with
+"",,,,,,,,,,,,,,miss place sec door seals witch
+"",,,,,,,,,,,,,,req a full sweep
+SAT,LAS,2321,N8723Q,3:40 AM,4:35 AM,4:36 AM,171,5:35 AM,5:36 AM,5:38 AM,1,3,TR09,fs0511/ls0536 start of  boarding
+"",,,,,,,,,,,,,,delayed waiting for ok to board
+"",,,,,,,,,,,,,,and ok to close door flt attend
+"",,,,,,,,,,,,,,briefing the exit row
+SAT,BWI,3197,N8618N,3:01 AM,3:56 AM,4:00 AM,151,5:00 AM,5:00 AM,5:08 AM,0,8,TR20,"Doors closed ontime, engine"
+"",,,,,,,,,,,,,,runup to check fuel drip. FS:38
+"",,,,,,,,,,,,,,LS:51
+SLC,DAL,1425,N8584Z,-,5:30 AM,5:35 AM,165,6:30 AM,6:35 AM,6:35 AM,5,5,TR09,FA-A didnt show up till board time
+"",,,,,,,,,,,,,,and wasnt ready to board till a few
+"",,,,,,,,,,,,,,minutes after schedueled
+"",,,,,,,,,,,,,,boarding time.
+"",,,,,,,,,,,,,,Flight crew not ready to close fwd
+"",,,,,,,,,,,,,,entry door @ time of  push
+STL,DAL,2372,N497WN,3:39 AM,4:49 AM,4:54 AM,96,5:40 AM,5:54 AM,5:57 AM,14,17,MX02,fs: 0512 ls: 0524 pwb sent 0549
+"",,,,,,,,,,,,,,"mx issue, mx came out, crew"
+"",,,,,,,,,,,,,,"deferred, second release printed"
+STL,MCO,418,N296WN,4:00 AM,5:29 AM,5:32 AM,139,6:25 AM,6:32 AM,6:33 AM,7,8,SD01,FAMILY PARTY OF 6 CHECKED IN
+"",,,,,,,,,,,,,,AT 0525.  TSA LONG LINES.
+"",,,,,,,,,,,,,,HELD UP WITH EXTRA
+"",,,,,,,,,,,,,,SCREENING FOR BABY MILK
+TPA,CMH,878,N7855A,3:49 AM,6:09 AM,6:11 AM,120,5:45 AM,7:11 AM,7:11 AM,86,86,MX02,plane returned to gate MX issue
+"",,,,,,,,,,,,,,WAS MEL VERSION 2 SENT
+TPA,HAV,3952,N8725L,3:36 AM,4:39 AM,4:41 AM,119,5:40 AM,5:41 AM,5:43 AM,1,3,CM02,LAST MIN CHECK BAG IN J/W.
+"",,,,,,,,,,,,,,119 PAX 4 W/Cs ON. 1ST SCAN
+"",,,,,,,,,,,,,,0604. LAST SCAN 0623.
+TPA,HOU,2606,N8577Z,3:39 AM,3:57 AM,4:13 AM,115,4:45 AM,5:13 AM,5:13 AM,28,28,TR01,Waiting for Capt that was moved
+"",,,,,,,,,,,,,,up to arrive; FS 0513; LS 0537;
+"",,,,,,,,,,,,,,PWB 0557; 115 PAXs and no gate
+"",,,,,,,,,,,,,,chks
+TPA,STL,2624,N457WN,3:28 AM,4:08 AM,4:10 AM,141,5:10 AM,5:10 AM,5:11 AM,0,1,,
+TPA,IND,756,N7850B,4:09 AM,5:03 AM,5:05 AM,143,6:00 AM,6:05 AM,6:06 AM,5,6,CM02,HAD 5 WCHR AND 2 UM. DID
+Orig,Dest,Flt,Aircraft,Final,Final LS,Doors,Total PAX,Sched,Doors,Out,Doors,Out,Delay,Delay Code & Remarks
+"",,,Reg,PrePlan,Print,Closed,Onboard,Dep,Closed,Gate,Closed,Gate,Group,
+"",,,Number,Timestamp,Timestamp,Local,,CST,CST,CST,Delay,Delay,Code,
+"",,,,Local,Local,,,,,,,,,
+TPA,DEN,1281,N7728D,3:58 AM,4:51 AM,4:57 AM,138,5:45 AM,5:57 AM,5:59 AM,12,14,TR04,"...FS 0621  LS 0640, MX ON"
+"",,,,,,,,,,,,,,BRD .  ALSO FUELER CALLED
+"",,,,,,,,,,,,,,BACK DUE TO APU ON FOR
+"",,,,,,,,,,,,,,"HEATER, UPLIFT COMPLETE"
+"",,,,,,,,,,,,,,0650  PWB 0651  MX WORKING
+"",,,,,,,,,,,,,,ON LOGBOOK...  DOORS
+"",,,,,,,,,,,,,,CLOSED 0657 MX CALLED @ 5
+"",,,,,,,,,,,,,,PRIOR FOR SECOND RETURN T
+"",,,,,,,,,,,,,,A/C PER CAPTAIN
+TUL,PHX,2287,N749SW,5:31 AM,6:00 AM,6:03 AM,141,7:00 AM,7:03 AM,7:06 AM,3,6,CM02,1ST BOARDING GROUP REALLY
+"",,,,,,,,,,,,,,SLOW TO BOARD.. WAITING ON
+"",,,,,,,,,,,,,,PAX TO SIT AT END OF
+"",,,,,,,,,,,,,,BOARDING .
+TUL,HOU,2247,N231WN,3:57 AM,5:02 AM,5:08 AM,135,6:10 AM,6:08 AM,6:13 AM,0,3,MX02,CAPT WRITING UP MEL.. THEN

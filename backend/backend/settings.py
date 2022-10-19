@@ -12,7 +12,8 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 from pathlib import Path
 from django.conf import settings
-import django_heroku
+import django_on_heroku
+
 import os
 import environ
 
@@ -51,7 +52,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'todo',
-    'django-heroku'
+    'django_heroku'
 ]
 
 MIDDLEWARE = [
@@ -92,11 +93,11 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': env("DATABASE_NAME"),
-        'USER': env("DATABASE_USER"),
-        'PASSWORD': env("DATABASE_PASSWORD"),
-        'HOST': env("DATABASE_HOST"),
-        'PORT': env("DATABASE_PORT"),
+        'NAME': 'mydb',
+        'USER': 'zkjet',
+        'PASSWORD': 'mypass',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
@@ -145,3 +146,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000'
 ]
+django_on_heroku.settings(locals())
