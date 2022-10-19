@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'todo',
+    'django-heroku'
 ]
 
 MIDDLEWARE = [
