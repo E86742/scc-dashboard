@@ -113,12 +113,12 @@ CONTROL_PANEL = {
     "C67": True,
 }
 
-EMPTY_CONTROL_PANEL = {}
-CHANGE_GATE_STATUS = str(input("What gate would you like to change the status of?"))
-for gate in CONTROL_PANEL:
-    if CHANGE_GATE_STATUS == gate:
-        CONTROL_PANEL.update(['False'])
-        print(gate)
+# EMPTY_CONTROL_PANEL = {}
+# CHANGE_GATE_STATUS = str(input("What gate would you like to change the status of?"))
+# for gate in CONTROL_PANEL:
+#     if CHANGE_GATE_STATUS == gate:
+#         CONTROL_PANEL.update(['False'])
+#         print(gate)
 
 # UPDATED_CONTROL_PANEL
 
@@ -133,24 +133,24 @@ def current_control_panel():
 
 
 # Question to close or open a gate:
-SEE_GATES = str(
-    input("Would you like to see what gates you are using?, YES OR NO"))
-if SEE_GATES == "yes" or SEE_GATES == "YES":
-    print("Ok, here's the current gates you are using:")
-    current_control_panel()
-    CHANGE_GATE_STATUS_QUESTION = str(input("Would you like to change the status of any of these gates?"))
-    if CHANGE_GATE_STATUS_QUESTION == "yes" or CHANGE_GATE_STATUS_QUESTION == "YES":
-        print("you answered yes")
-        # change_gate_status()
-    elif CHANGE_GATE_STATUS_QUESTION == "no" or CHANGE_GATE_STATUS_QUESTION == "NO":
-        print("You answered no")
-    else:
-        print('Oh well')
-elif SEE_GATES == "no" or SEE_GATES == "NO":
-    print("ok moving on then:")
-else:
-    print("you didn't answer the question yes or no")
-    exit()
+# SEE_GATES = str(
+#     input("Would you like to see what gates you are using?, YES OR NO"))
+# if SEE_GATES == "yes" or SEE_GATES == "YES":
+#     print("Ok, here's the current gates you are using:")
+#     current_control_panel()
+#     CHANGE_GATE_STATUS_QUESTION = str(input("Would you like to change the status of any of these gates?"))
+#     if CHANGE_GATE_STATUS_QUESTION == "yes" or CHANGE_GATE_STATUS_QUESTION == "YES":
+#         print("you answered yes")
+#         # change_gate_status()
+#     elif CHANGE_GATE_STATUS_QUESTION == "no" or CHANGE_GATE_STATUS_QUESTION == "NO":
+#         print("You answered no")
+#     else:
+#         print('Oh well')
+# elif SEE_GATES == "no" or SEE_GATES == "NO":
+#     print("ok moving on then:")
+# else:
+#     print("you didn't answer the question yes or no")
+#     exit()
 
 RAMP_SCHEDULE_GATES = []
 ramp_gate_count = 0
@@ -202,103 +202,111 @@ gate_gap_length = []
 close_time = []
 reopen_time = []
 
+header = ['Ramp Schedule Gate']
+with open('gates.csv', 'w', newline='') as ww:
+    ww = csv.writer(ww)
+    ww.writerow(header)
+    ww.writerow(gate_list)
+
+
+
 # RAMP SCHEDULE ORDER OF GATES
 
-print("Here we're looking for the first Lead C-GATE just after the LAV DRIVERS SECTION")
-with open('rampschedule.csv', 'w', newline='') as g:
-    ENTERED_GATE_COUNTER = 0
-    filewriter = csv.writer(g)
-    user_input = ''
-    # Start a loop that will run until the user enters 'save'.
-    while user_input != 'save':
-        user_input = input("Scheduled Gates - Enter Gate #:")
-        if user_input == 'save' or user_input == '':
-            print("Saving Gates and Gate Count")
-            break
-        else:
-            ramp_scheduled_gates.append(user_input)
-            ENTERED_GATE_COUNTER += 1
-            print("ADDED", "GATE:", user_input, "to the list.", ENTERED_GATE_COUNTER, "gates so far")
-    staffed_gates = len(ramp_scheduled_gates)
-    filewriter.writerow(["Ramp Schedule Gates"])
-    for i in ramp_scheduled_gates:
-        filewriter.writerow([i])
-    filewriter.writerow(["We currently have:",staffed_gates,"staffed gates."])
-    print("We currently have:", staffed_gates, "staffed gates.")
-    if len(ramp_scheduled_gates) == len(RAMP_SCHEDULE_GATES):
-        print("GATE COUNTS ARE EQUAL GOOD JOB")
-    else:
-        print("Something's wrong, start over.")
-        exit()
-g.close()
+# print("Here we're looking for the first Lead C-GATE just after the LAV DRIVERS SECTION")
+# with open('rampschedule.csv', 'w', newline='') as g:
+#     ENTERED_GATE_COUNTER = 0
+#     filewriter = csv.writer(g)
+#     user_input = ''
+#     # Start a loop that will run until the user enters 'save'.
+#     while user_input != 'save':
+#         user_input = input("Scheduled Gates - Enter Gate #:")
+#         if user_input == 'save' or user_input == '':
+#             print("Saving Gates and Gate Count")
+#             break
+#         else:
+#             ramp_scheduled_gates.append(user_input)
+#             ENTERED_GATE_COUNTER += 1
+#             print("ADDED", "GATE:", user_input, "to the list.", ENTERED_GATE_COUNTER, "gates so far")
+#     staffed_gates = len(ramp_scheduled_gates)
+#     filewriter.writerow(["Ramp Schedule Gates"])
+#     for i in ramp_scheduled_gates:
+#         filewriter.writerow([i])
+#     filewriter.writerow(["We currently have:",staffed_gates,"staffed gates."])
+#     print("We currently have:", staffed_gates, "staffed gates.")
+#     if len(ramp_scheduled_gates) == len(RAMP_SCHEDULE_GATES):
+#         print("GATE COUNTS ARE EQUAL GOOD JOB")
+#     else:
+#         print("Something's wrong, start over.")
+#         exit()
+# g.close()
 
-# Ramp AM Offtime
-with open('rampschedule.csv', 'a', newline='') as g:
-    filewriter = csv.writer(g)
-    user_input = ''
-    # Start a loop that will run until the user enters 'save'.
-    while user_input != 'save':
-        user_input = input("Ramp Schedule - Enter AM Shift Off Time: ")
-        if user_input != 'save':
-            q = int(user_input[:2])
-            r = int(user_input[-2:])
-            s = timedelta(hours=q, minutes=r)
-            ramp_am_off.append(s)
-        else:
-            filewriter.writerow(ramp_am_off)
-g.close()
+# # Ramp AM Offtime
+# with open('rampschedule.csv', 'a', newline='') as g:
+#     filewriter = csv.writer(g)
+#     user_input = ''
+#     # Start a loop that will run until the user enters 'save'.
+#     while user_input != 'save':
+#         user_input = input("Ramp Schedule - Enter AM Shift Off Time: ")
+#         if user_input != 'save':
+#             q = int(user_input[:2])
+#             r = int(user_input[-2:])
+#             s = timedelta(hours=q, minutes=r)
+#             ramp_am_off.append(s)
+#         else:
+#             filewriter.writerow(ramp_am_off)
+# g.close()
 
-# Ramp PM Start Time
-with open('rampschedule.csv', 'a', newline='') as g:
-    filewriter = csv.writer(g)
-    user_input = ''
-    while user_input != 'save':
-        user_input = input(
-            "Ramp Schedule - Enter PM Start Time in 4 digit times: ")
-        if user_input != 'save':
-            q = int(user_input[:2])
-            r = int(user_input[-2:])
-            s = timedelta(hours=q, minutes=r)
-            ramp_pm_start.append(s)
-        else:
-            filewriter.writerow(ramp_pm_start)
-g.close()
+# # Ramp PM Start Time
+# with open('rampschedule.csv', 'a', newline='') as g:
+#     filewriter = csv.writer(g)
+#     user_input = ''
+#     while user_input != 'save':
+#         user_input = input(
+#             "Ramp Schedule - Enter PM Start Time in 4 digit times: ")
+#         if user_input != 'save':
+#             q = int(user_input[:2])
+#             r = int(user_input[-2:])
+#             s = timedelta(hours=q, minutes=r)
+#             ramp_pm_start.append(s)
+#         else:
+#             filewriter.writerow(ramp_pm_start)
+# g.close()
 
-# Calculate Gate Closure
-# We want the AM offtime to occur after the PM start time.
-# EXAMPLE 1300 OFF TIME 1230 START TIME 30 MINUTES OVERLAP
+# # Calculate Gate Closure
+# # We want the AM offtime to occur after the PM start time.
+# # EXAMPLE 1300 OFF TIME 1230 START TIME 30 MINUTES OVERLAP
 
-with open('rampschedule.csv', 'a', newline='') as g:
-    filewriter = csv.writer(g)
-    subtracted = list()
-    for p in range(len(ramp_pm_start)):
-        item = ramp_am_off[p] - ramp_pm_start[p]
-        gate_gap_length.append(item)
-        # filewriter.writerow(gate_gap_length)
-print(gate_gap_length, "Minutes")
-# CLOSE TIME
-for e in ramp_am_off:
-    t = e - THIRTY_MINUTES
-    close_time.append(t)
-# REOPEN TIME
-for o in ramp_pm_start:
-    n = o + THIRTY_MINUTES
-    reopen_time.append(n)
-print("""
-=================================================================================================================================
-| Ramp Shift Change Closures Report - pg.1                                                                                      |
-=================================================================================================================================
-""")
-for (d, k, l, c, e, o) in zip(gate_list, ramp_am_off, ramp_pm_start, gate_gap_length, close_time, reopen_time):
-    print("Gate:", d, "Ramp off at:", k, "PM Crew starts:", l,
-          "Gate gap length:", c, "close gate at:", e, "reopen gate at:", o)
+# with open('rampschedule.csv', 'a', newline='') as g:
+#     filewriter = csv.writer(g)
+#     subtracted = list()
+#     for p in range(len(ramp_pm_start)):
+#         item = ramp_am_off[p] - ramp_pm_start[p]
+#         gate_gap_length.append(item)
+#         # filewriter.writerow(gate_gap_length)
+# print(gate_gap_length, "Minutes")
+# # CLOSE TIME
+# for e in ramp_am_off:
+#     t = e - THIRTY_MINUTES
+#     close_time.append(t)
+# # REOPEN TIME
+# for o in ramp_pm_start:
+#     n = o + THIRTY_MINUTES
+#     reopen_time.append(n)
+# print("""
+# =================================================================================================================================
+# | Ramp Shift Change Closures Report - pg.1                                                                                      |
+# =================================================================================================================================
+# """)
+# for (d, k, l, c, e, o) in zip(gate_list, ramp_am_off, ramp_pm_start, gate_gap_length, close_time, reopen_time):
+#     print("Gate:", d, "Ramp off at:", k, "PM Crew starts:", l,
+#           "Gate gap length:", c, "close gate at:", e, "reopen gate at:", o)
 
-print("""
-================================================================================================================================
-| END OF REPORT - pg.1                                                                                                          |
-================================================================================================================================
-""")
-g.close()
+# print("""
+# ================================================================================================================================
+# | END OF REPORT - pg.1                                                                                                          |
+# ================================================================================================================================
+# """)
+# g.close()
 
 
 # REARRANGE GATES FOR OPSSUITE USE
