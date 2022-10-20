@@ -19,7 +19,7 @@ import django_heroku
 
 
 # Raises django's ImproperlyConfigured exception if SECRET_KEY not in os.environ
-SECRET_KEY = 'django-insecure-wc*1oufbtua@sgw*5*z@)q4@@g5$+lh1ovqr$s%l855azgzc-e'
+SECRET_KEY = '1(jt=(2ggmifj9f5#h=brzgevo6z($d1o#v9qy^h5)n7)g76'
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
