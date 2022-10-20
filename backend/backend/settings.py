@@ -12,21 +12,19 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 from pathlib import Path
 from django.conf import settings
-import django_on_heroku
-
+import dj_database_url
 import os
-import environ
+from dotenv import load_dotenv
+import django_heroku
 
-env = environ.Env()
-# reading .env file
-environ.Env.read_env()
 
 # Raises django's ImproperlyConfigured exception if SECRET_KEY not in os.environ
-SECRET_KEY = env("SECRET_KEY", default="unsafe-secret-key")
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
+load_dotenv(os.path.join(BASE_DIR, ".env"))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
@@ -84,22 +82,32 @@ TEMPLATES = [
     },
 ]
 
+TEMPLATE_PATH = os.path.join(BASE_DIR, "templates")
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+
+]
+
 WSGI_APPLICATION = 'backend.wsgi.application'
 
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+
+DATABASE_URL = os.getenv("DATABASE_URL")
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'mydb',
-        'USER': 'zkjet',
-        'PASSWORD': 'mypass',
+        'NAME': 'DATABASE_NAME',
+        'USER': 'DATABASE_USER',
+        'PASSWORD': 'DATABASE_PASSWORD',
         'HOST': 'localhost',
         'PORT': '5432',
     }
 }
+
 
 
 # Password validation
@@ -146,4 +154,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000'
 ]
-django_on_heroku.settings(locals())
+django_heroku.settings(locals())
