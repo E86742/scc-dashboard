@@ -34,6 +34,7 @@ debugpy==1.6.0
 decorator==5.1.1
 defusedxml==0.7.1
 distlib==0.3.6
+distro==1.8.0
 dj-database-url==1.0.0
 Django==3.2.16
 django-cors-headers==3.13.0
@@ -278,6 +279,7 @@ pyquil==3.0.1
 pyrsistent==0.18.1
 pysha3==1.0.2
 python-dateutil==2.8.2
+python-dotenv==0.21.0
 python-rapidjson==1.6
 pytz==2022.1
 pyzmq==22.3.0
@@ -302,6 +304,7 @@ sortedcontainers==2.4.0
 soupsieve==2.3.2
 sqlparse==0.4.3
 sympy==1.10.1
+tabula-py==2.5.1
 terminado==0.13.3
 tinycss2==1.1.1
 toml==0.10.2
