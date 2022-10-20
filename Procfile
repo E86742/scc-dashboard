@@ -1,2 +1,1 @@
-web: gunicorn mysite-project.wsgi
-
+web: gunicorn django_react_starter.wsgi --log-file -
