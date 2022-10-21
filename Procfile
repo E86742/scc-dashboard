@@ -1,1 +1,2 @@
-gunicorn --env DJANGO_SETTINGS_MODULE=backend.settings backend.wsgi
+release: python manage.py migrate
+web: gunicorn backend.wsgi --log-file -
