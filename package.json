@@ -1,0 +1,22 @@
+{
+  "name": "scc-dashboard",
+  "version": "1.0.0",
+  "description": "SCC Dashboard",
+  "main": "lateconnections.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/E86742/scc-dashboard.git"
+  },
+  "author": "E86742",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/E86742/scc-dashboard/issues"
+  },
+  "homepage": "https://github.com/E86742/scc-dashboard#readme"
+}
