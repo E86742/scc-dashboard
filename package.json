@@ -21,7 +21,7 @@
   },
   "engines": {
     "node": "18.x",
-    "npm": "8.xx.x"
+    "npm": "8.x"
   },
   "eslintConfig": {
     "extends": [
