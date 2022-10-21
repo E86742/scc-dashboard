@@ -8,19 +8,22 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.21.1",
+    "bootstrap": "^5.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "reactstrap": "^9.1.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "npm start",
-    "build": "npm run build",
-    "test": "npm test",
-    "eject": "npm eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "engines": {
-    "npm": "8.19.2",
-    "node": "16.16.0"
+    "node": ">=16.6.0",
+    "npm": "8.19.2"
   },
   "eslintConfig": {
     "extends": [
